@@ -3,7 +3,7 @@ import Projects from './components/Projects';
 
 const App = () => {
 	return (
-		<div>
+		<div className='container'>
 			<Projects />
 		</div>
 	);

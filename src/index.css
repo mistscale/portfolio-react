@@ -1,11 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+	--primary: rgb(35, 35, 35);
+	--secondary: rgb(245, 224, 214);
+	--tertiary: rgb(170, 198, 202);
+	--white: rgb(255, 255, 255);
+	--light-grey: rgb(244, 244, 244);
+}
+
 *,
 *:before,
 *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 body {
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 375px;
+	margin: 0 auto;
+	padding: 40px 24px;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 700px;
+	}
+
+	.project-group {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 40px;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.container {
+		width: 1000px;
+	}
 }
