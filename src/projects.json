@@ -1,0 +1,83 @@
+[
+	{
+		"title": "Top Movies",
+		"description": "Multi-page web app built using React Router and API to display current top movies.",
+		"tags": ["React", "JSX", "API", "CSS", "Styled Components"],
+		"image": "/assets/top-movies.jpg",
+		"url_github": "https://github.com/mistscale/project-movies",
+		"url_deploy": "https://top-movies-2022.netlify.app/",
+		"featured": true
+	},
+	{
+		"title": "Happy Thoughts",
+		"description": "Fullstack Twitter-like web app built in React for posting and liking happy thoughts.",
+		"tags": ["React", "JSX", "API", "CSS"],
+		"image": "/assets/happy-thoughts.jpg",
+		"url_github": "https://github.com/mistscale/project-happy-thoughts",
+		"url_deploy": "https://lisen-happy-thoughts.netlify.app/",
+		"featured": true
+	},
+	{
+		"title": "To Do",
+		"description": "Web app built in React using Redux to make user add, check and delete tasks.",
+		"tags": ["React", "Redux", "JSX", "CSS"],
+		"image": "/assets/todo.jpg",
+		"url_github": "https://github.com/mistscale/project-todos",
+		"url_deploy": "https://lisen-todo.netlify.app",
+		"featured": true
+	},
+	{
+		"title": "Weather App",
+		"description": "Web app built in JavaScript using data from open weather API, showing weather based on IP-address.",
+		"tags": ["Javascript", "API", "CSS"],
+		"image": "/assets/weather-app-mockup.jpg",
+		"url_github": "https://github.com/mistscale/project-weather-app",
+		"url_deploy": "https://weatherapp-week6.netlify.app/",
+		"featured": true
+	},
+	{
+		"title": "Music Releases",
+		"description": "Web app built in React showing 2019 new album and single releases from Spotify API.",
+		"tags": ["React", "JSX", "API", "CSS"],
+		"image": "",
+		"url_github": "https://github.com/mistscale/project-music-releases",
+		"url_deploy": "https://flamboyant-fermat-1d0663.netlify.app",
+		"featured": false
+	},
+	{
+		"title": "Tech Movie Quiz",
+		"description": "Multiple choice quiz built in React using Redux, displaying progress and summary with score.",
+		"tags": ["React", "Redux", "JSX", "Styled Components"],
+		"image": "",
+		"url_github": "https://github.com/mistscale/project-redux-quiz",
+		"url_deploy": "https://techmoviequiz.netlify.app",
+		"featured": false
+	},
+	{
+		"title": "Random Survey",
+		"description": "Multiple questions survey with summary at the end built in React.",
+		"tags": ["React", "JSX", "CSS"],
+		"image": "",
+		"url_github": "https://github.com/mistscale/project-survey",
+		"url_deploy": "https://lisen-project-survey.netlify.app",
+		"featured": false
+	},
+	{
+		"title": "GitHub Tracker",
+		"description": "Tracker of my Technigo projects, using Github API and chart from chart.js.",
+		"tags": ["Javascript", "API", "HTML", "CSS"],
+		"image": "",
+		"url_github": "https://github.com/mistscale/project-github-tracker",
+		"url_deploy": "https://lisen-github-tracker.netlify.app/",
+		"featured": false
+	},
+	{
+		"title": "Guess Who",
+		"description": "Digital version of the board game \"Guess Who\" built in JavaScript that filters characters based on user guesses.",
+		"tags": ["Javascript", "API", "HTML", "CSS"],
+		"image": "",
+		"url_github": "https://github.com/mistscale/project-guess-who",
+		"url_deploy": "https://lisen-project-guess-who.netlify.app/",
+		"featured": false
+	}
+]
