@@ -1,0 +1,46 @@
+[
+	{
+		"skill": "HTML",
+		"category": "code"
+	},
+	{
+		"skill": "CSS",
+		"category": "code"
+	},
+	{
+		"skill": "JavaScript",
+		"category": "code"
+	},
+	{
+		"skill": "React",
+		"category": "code"
+	},
+	{
+		"skill": "Photoshop",
+		"category": "toolbox"
+	},
+	{
+		"skill": "Illustrator",
+		"category": "toolbox"
+	},
+	{
+		"skill": "Illustrator",
+		"category": "toolbox"
+	},
+	{
+		"skill": "Illustrator",
+		"category": "toolbox"
+	},
+	{
+		"skill": "Illustrator",
+		"category": "itops"
+	},
+	{
+		"skill": "Illustrator",
+		"category": "itops"
+	},
+	{
+		"skill": "Illustrator",
+		"category": "itops"
+	}
+]
