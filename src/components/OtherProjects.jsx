@@ -34,9 +34,11 @@ const OtherProjects = () => {
 										{project.tags.map((tag) => (
 											<Tag key={tag}>{tag}</Tag>
 										))}
-										<a href={project.url_github} target='_blank' rel='noopener noreferrer'>
-											<i class='github-btn fa-brands fa-github-square'></i>
-										</a>
+										<Tag>
+											<a href={project.url_github} target='_blank' rel='noopener noreferrer'>
+												<i class='fa-solid fa-code'></i>
+											</a>
+										</Tag>
 									</TagWrapper>
 								</article>
 							))}

@@ -38,9 +38,11 @@ const FeaturedProjects = () => {
 										{project.tags.map((tag) => (
 											<Tag key={tag}>{tag}</Tag>
 										))}
-										<a href={project.url_github} target='_blank' rel='noopener noreferrer'>
-											<i class='fa-brands fa-github'></i>
-										</a>
+										<Tag>
+											<a href={project.url_github} target='_blank' rel='noopener noreferrer'>
+												<i class='fa-solid fa-code'></i>
+											</a>
+										</Tag>
 									</TagWrapper>
 								</article>
 							))}
